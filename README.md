@@ -47,10 +47,10 @@ Use Case Examples
 
 You can use BTC Sniffer to easily:
 
-1) Push notifications to an external messaging server ( Amazon SNS, ZeroMQ, RabbitMQ, etc )
-2) Store real time transactions on any database format you want ( MySQL, MongoDB, etc )
-3) Use sockets to display real time stream of network events on your website
-4) Create a real time charts and statistics
+1. Push notifications to an external messaging server ( Amazon SNS, ZeroMQ, RabbitMQ, etc )
+2. Store real time transactions on any database format you want ( MySQL, MongoDB, etc )
+3. Use sockets to display real time stream of network events on your website
+4. Create a real time charts and statistics
 
 And anything else you can think of. :)
 
