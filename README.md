@@ -40,8 +40,6 @@ MacBook-Pro:bitcoin-sniffer sebicas$ ./sniffer.py
  - Valid TX: ddc70dc5119150d2731f6b4193522ad22cbe3800164022a34b94b2c2e899cc1c
 ```
 
-You can easyly 
-
 Use Case Examples
 -----------------
 
