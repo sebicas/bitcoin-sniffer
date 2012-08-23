@@ -1,7 +1,9 @@
 #!/usr/bin/python
 #
 # sniffer.py - Bitcoin P2P Network Sniffer
-# 
+# https://github.com/sebicas/bitcoin-sniffer by @sebicas
+#
+# Based on an early version of jgarzik / pynode ( https://github.com/jgarzik/pynode )
 #
 # Distributed under the MIT/X11 software license, see the accompanying
 # file COPYING or http://www.opensource.org/licenses/mit-license.php.
@@ -23,19 +25,19 @@ MY_SUBVERSION = "/sniffer:%s/" % SNIFFER_VERSION
 
 # Bitcoin Node IP & Port ( Warning: Use a node you trust! )
 settings = {
-	"host": "94.179.244.32",
+	"host": "173.242.112.53",
 	"port": 8333
 }
 
 # Triggers everytime a new block is sniffed
 def new_block_event(block):
-	print "\n# --\n"
+	print "\n"
 	if block.is_valid():
 		print " - Valid Block: %s" % block.id()
 	else:
 		print " - Invalid Block: %s" % block.id()
 	# print "\nDebug Block: %s" % block
-	print "\n# --\n"
+	print "\n"
 
 # Triggers everytime a new transaction is sniffed
 def new_tx_event(tx):
@@ -43,9 +45,8 @@ def new_tx_event(tx):
 		print " - Valid TX: %s" % tx.id()
 	else:
 		print " - Invalid TX: %s" % tx.id()
-    # print "\nDebug TX: %s" % tx
 
-# Regular Code 
+	#print "\nDebug TX: %s" % tx
 
 def double_sha256(s):
 	return hashlib.sha256(hashlib.sha256(s).digest()).digest()
