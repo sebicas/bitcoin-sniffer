@@ -6,11 +6,11 @@ BTC Sniffer is a Python script based on an easy version of jgarzik / pynode ( ht
 * **new_block_event(block)**: Triggers when a **Block** is found
 * **new_tx_event(tx)**: Triggers when a **Transactions** is found
 
-The purpose of BTC Sniffer is the add an easy way to listen to Bitcoin Network events and facilitate extensions without having to alter bitcoind's code itself, making it easy to upgrade you bitcoind node without having to rewrite your extensions.
-
-The best possible scenario is having BTC Sniffer listening to a local bitcoind node, since we can assume you can trust your own node. But tecnicly, it can connect to any node on the network ( http://blockchain.info/connected-nodes )
+The purpose of BTC Sniffer is to add an easy way to listen to Bitcoin Network events and facilitate extensions without having to alter any bitcoind's code, making it easy to upgrade you bitcoind node without having to rewrite your extensions.
 
 **IMPORTANT**: BTC Sniffer doesn't do any validation, it just trust the node it connects for that, so if you use it on production, make sure you connect to a node you trust.
+
+The best possible scenario is having BTC Sniffer listening to a local bitcoind node, since we can assume you can trust your own node. But tecnicly, it can connect to any node on the network ( http://blockchain.info/connected-nodes )
 
 See how it works
 ----------------
