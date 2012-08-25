@@ -20,24 +20,40 @@ Here is an example of the script output:
 ```
 MacBook-Pro:bitcoin-sniffer sebicas$ ./sniffer.py
 
- Bitcoin Network Sniffer v0.0.1
+ Bitcoin Network Sniffer v0.0.2
  -------------------------------------------------------------------------
  Connecting to Bitcoin Node IP # 173.242.112.53:8333
  Connected & Sniffing :)
 
- - Valid TX: 68ca213684e40a673dba7bbcb1d9bebb2c696eb8da92f8e8d853cab772e92f52
- - Valid TX: 8192c04854d635755184f0f5a6444becba051750ef1ab8bf39967785f377d89e
- - Valid TX: 433b0f7f8b343d0ce25c0ad1e22b42fc57526cfa9ecc86511440d2d5f63961ec
- - Valid TX: 3839d9a481606105ae9f0513e66305cdb6e18149f8c7ae7aea0550d77b443f56
- - Valid TX: 12afb272778079c36f0e35ad9d147b37c9e34f42b12133efca6f57d68a68e548
+- Valid TX: b5d7c8cc5928cf9eb1d2b1707bea117b068ced9cf658ad720390078c4e393c4c
 
- - Valid Block: 0000000000000408f197ce13e2271edc889b6ef3109036ce6ff2e30f2e9023df
+     16PMf9Yi1hy9C1nCiWfiXNoPNaHaC6ipBK for 12.33436000
+     1AimQmFs6dkd1dFPopcZ8VC7Sc5HJGYfKk for 0.00016000
 
- - Valid TX: 4649725078f30f4b18099a6ede4c991c16c16887e4ff860b33cb7fa8d6c01c3a
- - Valid TX: 712419473ed2a429de1757030d8551f6ee5d360fdfc9648f5647fbd6f166ed2b
- - Valid TX: 17546dea9122dc13c81fc177c2fba0eda30674fbc29619f24b556095a52efdc3
- - Valid TX: da2621f6ef147e78dfe210e3d3718fb620dc9c8bfbbebd3b1e7e49645e20c53f
- - Valid TX: ddc70dc5119150d2731f6b4193522ad22cbe3800164022a34b94b2c2e899cc1c
+ - Valid TX: 81cf6efd753db1a1695297f95262838804aa9124da52a1000d4d0456bbd84654
+
+     1J9G5VnQyShSzetZNmE9bFFSWmnTfedb3q for 1.54410000
+     1LdXRVAATSYRVuherLi3gB7HpmPaPTpLh7 for 0.01560000
+
+ - Valid TX: cd62bdabe87f4bfed98f1de6fc78a0f273e23aafc3ff89d7fccf5891fe4ad4e3
+
+     1K4y7R89JzhWe42uH6cubAJ8A8APk9mCqE for 34.99941317
+     1BRyszipKLfwj44r85wEVRW7BUCrgofbgd for 3.00000000
+
+ - Valid Block: 00000000000003f57d766770ac6015a661542d5b7ba34b84d89aa80da5d2f294
+
+ - Valid TX: c75be564867cb0aa2d9c7ba8628f28fe0e9c05938d39336007c2a18aa91a0f6e
+
+     1FBqPQg3VsybSTLw5gpNhTg4N1jikSRW4X for 47.28058819
+     1KXarmngRew1kr3tHj4RnBJNpcEtJxiBZL for 0.06800000
+
+ - Valid TX: 66a3afd0a246a42d780e245e8eab9c4314c2919dcccbef1f90bff62b4fcfd4c4
+
+     1MUjNPQVk3eztHXbkwCwuD249P1CjQL7Hc for 0.01008070
+     1KRSKQb4zAn2WoYrNpHUChbaJB1MuK3gMj for 0.00022020
+     1DgT9ugHk5rXvg53osVKFJxyt9Mijw6QYF for 0.00100000
+     1CZ1voXst65eWxisDgoEKwCJ37opnDHG3d for 0.00061325
+     1C28Zz49eYJrrweQNC33nBVFrEUb23kiyP for 0.00013165
 ```
 
 Use Case Examples
