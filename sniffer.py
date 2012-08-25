@@ -28,7 +28,7 @@ MY_SUBVERSION = ".4"
 
 # Default Settings if no configuration file is given
 settings = {
-	"host": "172.16.46.128",
+	"host": "173.242.112.53",
 	"port": 8333,
 	"debug": False
 }
