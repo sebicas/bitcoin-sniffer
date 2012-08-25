@@ -43,7 +43,7 @@ def new_transaction_event(tx):
 	if tx.is_valid():
 		print "\n - Valid TX: %s\n" % tx.hash
 		for txout in tx.vout:
-			print "     %s for %.8f" % (txout.address, txout.amount)
+			print "     To: %s BTC: %.8f" % (txout.address, txout.amount)
 	else:
 		print "\n - Invalid TX: %s" % tx.hash
 
