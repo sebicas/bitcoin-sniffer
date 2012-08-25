@@ -1,4 +1,4 @@
-Bitcoin P2P Network Sniffer v0.0.1
+Bitcoin P2P Network Sniffer v0.0.2
 ===============================================
 
 BTC Sniffer is a Python script based on an easy version of jgarzik / pynode ( https://github.com/jgarzik/pynode ) that connects to any node on the Bitcoin Network and triggers the folloing events:
