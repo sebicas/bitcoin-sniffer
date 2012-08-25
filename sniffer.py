@@ -35,9 +35,9 @@ settings = {
 
 def new_block_event(block):
 	if block.is_valid():
-		print " - Valid Block: %s" % block.hash
+		print "\n - Valid Block: %s" % block.hash
 	else:
-		print " - Invalid Block: %s" % block.hash
+		print "\n - Invalid Block: %s" % block.hash
 
 def new_transaction_event(tx):
 	if tx.is_valid():
@@ -45,7 +45,7 @@ def new_transaction_event(tx):
 		for txout in tx.vout:
 			print "     %s for %.8f" % (txout.address, txout.amount)
 	else:
-		print " - Invalid TX: %s" % tx.hash
+		print "\n - Invalid TX: %s" % tx.hash
 
 def sha256(s):
 	return hashlib.new('sha256', s).digest()
